@@ -1758,9 +1758,9 @@ const divContainer = document.getElementById("div-select")
 const phoneInput = document.getElementById("input-areacode")
 
 
-countryFormselect.addEventListener("change", () => {
-  countrySelected(countryFormselect.value);
-});
+//countryFormselect.addEventListener("change", () => {
+//  countrySelected(countryFormselect.value);
+//});
 
 COUNTRIES.forEach(country => {
     const name = country.name
