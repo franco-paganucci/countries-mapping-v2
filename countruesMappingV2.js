@@ -1753,7 +1753,7 @@ const COUNTRIES = [
 
 const countryFormselect = document.getElementById("select-country");
 const divContainer = document.getElementById("div-select");
-const phoneInput = document.getElementById("input-areacode");
+const phoneInput = document.getElementById("input-mobilecode");
 
 const countrySelected = (val) => {
   console.log("change");
